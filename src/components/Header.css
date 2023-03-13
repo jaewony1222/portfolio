@@ -1,0 +1,37 @@
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333336;
+  box-shadow: 0 0 5px 5px black;
+  color: #fff;
+  height: 55px;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  font-size: 13px;
+}
+.menu li {
+  padding: 0 150px;
+  position: relative;
+}
+.menu li::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 4px;
+  background-color: #fff;
+  opacity: 0.3;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translatex(-50%);
+  transition: all 1s;
+}
+.menu li:hover {
+  transform: translatex(10%);
+  transition: all 1s;
+}
