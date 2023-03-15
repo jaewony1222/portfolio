@@ -1,1 +1,12 @@
-
+.inner {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.leftbx {
+  width: 100%;
+  border: 2pox solid #333;
+}
+.leftbx img {
+  width: 100%;
+}

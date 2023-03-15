@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333336;
-  box-shadow: 0 0 5px 5px black;
-  color: #fff;
+  background-color: #fff;
+  box-shadow: 0 0 3px 3px #ccc;
+  color: black;
   height: 55px;
   opacity: 0.8;
-  position: fixed;
   width: 100%;
+  font-weight: bold;
 }
 .menu {
   display: flex;
@@ -16,20 +16,19 @@
 }
 .menu li {
   padding: 0 150px;
-  position: relative;
 }
 .menu li::after {
   content: "";
   display: block;
   width: 45px;
   height: 4px;
-  background-color: #fff;
+  background-color: gray; 
   opacity: 0.3;
   position: absolute;
   left: 50%;
   bottom: -10px;
   transform: translatex(-50%);
-  transition: all 1s;
+  transition: all 3s;
 }
 .menu li:hover {
   transform: translatex(10%);
