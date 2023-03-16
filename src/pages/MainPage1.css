@@ -3,10 +3,44 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+.title {
+  padding: 20px 0;
+  border-bottom: 3px solid #333;
+}
+.title h1 {
+  font-size: 50px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
 .leftbx {
-  width: 100%;
-  border: 2pox solid #333;
+  width: 80%;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 3px #ccc;
+  margin-bottom: 30px;
 }
 .leftbx img {
   width: 100%;
+}
+.rightbx {
+  padding: 0 30px;
+  text-align: center;
+  background-color: #ccc;
+  position: absolute;
+  opacity: 0.8;
+}
+.right_title {
+  width: 110%;
+  text-align: start;
+}
+.right_title h2 {
+  font-size: 40px;
+}
+.right_title p {
+  font-size: 20px;
 }
