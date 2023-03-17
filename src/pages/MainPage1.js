@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainPage1.css";
+import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
 const MainPage1 = () => {
   return (
     <div className="inner">
       <div className="title">
-        <h1>프로젝트 PROJECTS</h1>
+        <h1>PROJECTS</h1>
       </div>
       <div className="box">
         <div className="leftbx">
@@ -13,14 +14,17 @@ const MainPage1 = () => {
         </div>
         <div className="rightbx">
           <div className="right_title">
-            <h2>01.INDIGO</h2>
+            <h2>
+              <span className="number">01.</span>
+              INDIGO
+            </h2>
             <p>반응형을 학습하여 제작한 페이지입니다.</p>
           </div>
-          <ul>
-            <il>퍼센트(%) 값을 이용한 컨텐츠의 유동적인 크기 설정</il>
+          <ul className="right_ul">
+            <li>퍼센트(%) 값을 이용한 컨텐츠의 유동적인 크기 설정</li>
             <li></li>
           </ul>
-          <button>GoTo</button>
+          <button>Go To</button>
           <table className="file_link">
             <thead>
               <tr>
@@ -30,24 +34,27 @@ const MainPage1 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <span>HTML</span>
+                <td headers="col1">
+                  <span className="category html">HTML</span>
                 </td>
-                <td>
+                <td headers="col2">
                   <a>index.html</a>
                 </td>
               </tr>
               <tr>
-                <td>
-                  <span>CSS</span>
+                <td headers="col1">
+                  <span className="category css">CSS</span>
                 </td>
-                <td>
+                <td headers="col2">
                   <a>index.css</a>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
+        <button className="movebtn">
+          <MdKeyboardDoubleArrowLeft />
+        </button>
       </div>
     </div>
   );

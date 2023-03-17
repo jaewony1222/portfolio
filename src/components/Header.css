@@ -9,6 +9,8 @@
   opacity: 0.8;
   width: 100%;
   font-weight: bold;
+  position: fixed;
+  z-index: 2;
 }
 .menu {
   display: flex;
@@ -16,19 +18,6 @@
 }
 .menu li {
   padding: 0 150px;
-}
-.menu li::after {
-  content: "";
-  display: block;
-  width: 45px;
-  height: 4px;
-  background-color: gray;
-  opacity: 0.3;
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-  transform: translatex(-50%);
-  transition: all 3s;
 }
 .menu li:hover {
   transform: translatex(10%);

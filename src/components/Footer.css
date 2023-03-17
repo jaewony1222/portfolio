@@ -1,8 +1,15 @@
 .foot {
-  position: fixed;
   width: 100%;
-  
   background-color: #f0f0f0;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
+}
+.foot h2 {
+  font-size: 30px;
+}
+.foot_sub {
+  padding: 20px;
+}
+.foot_sub li {
+  padding: 10px;
 }
