@@ -22,7 +22,6 @@ const MainPage1 = () => {
           </div>
           <ul className="right_ul">
             <li>퍼센트(%) 값을 이용한 컨텐츠의 유동적인 크기 설정</li>
-            <li></li>
           </ul>
           <button>Go To</button>
           <table className="file_link">
