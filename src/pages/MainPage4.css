@@ -61,9 +61,9 @@
 .rightbx button:hover {
   background-color: #333;
 }
-.movebtn1 {
+.movebtn2 {
   position: absolute;
-  right: 32%;
+  right: 35%;
   border: none;
   background: none;
   font-size: 40px;
@@ -99,4 +99,8 @@ table {
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
+}
+.file_link td .category.js {
+  padding: 2px 7px;
+  background-color: #ffca28;
 }

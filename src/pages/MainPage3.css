@@ -6,10 +6,10 @@
   top: 35px;
   z-index: 1;
 }
-.box2 {
+.box {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   margin-top: 40px;
 }
 .leftbx {
@@ -61,9 +61,9 @@
 .rightbx button:hover {
   background-color: #333;
 }
-.movebtn1 {
+.movebtn3 {
   position: absolute;
-  right: 32%;
+  left: 34%;
   border: none;
   background: none;
   font-size: 40px;
@@ -92,11 +92,4 @@ table {
 }
 .file_link td .category.html {
   background-color: #ff702a;
-}
-.file_link td .category {
-  padding: 3px;
-  margin-left: 14px;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 12px;
 }

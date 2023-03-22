@@ -1,24 +1,22 @@
 import React from "react";
-import "./MainPage1.css";
+import "./MainPage3.css";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
-const MainPage1 = () => {
+const MainPage3 = () => {
   return (
     <div className="inner">
-      <div className="title">
-        <h1>PROJECTS</h1>
-      </div>
       <div className="box">
         <div className="leftbx">
-          <img src="./img/indigo.PNG" />
+          <img src="./img/todolist.PNG" />
         </div>
         <div className="rightbx">
           <div className="right_title">
             <h2>
-              <span className="number">01.</span>
-              INDIGO
+              <span className="number">03.</span>
+              Todo List
             </h2>
-            <p>반응형을 학습하여 제작한 페이지입니다.</p>
+            <p>리액트를 학습하며 제작한 페이지입니다.</p>
+            <p>할 일 추가,삭제,체크 등의 기능이 가능합니다.</p>
           </div>
           <button>Go To</button>
           <table className="file_link">
@@ -31,26 +29,16 @@ const MainPage1 = () => {
             <tbody>
               <tr>
                 <td headers="col1">
-                  <span className="category html">HTML</span>
+                  <span className="category html">React</span>
                 </td>
                 <td headers="col2">
-                  <a>index.html</a>
-                </td>
-              </tr>
-              <tr>
-                <td headers="col1">
-                  <span className="category css">CSS</span>
-                </td>
-                <td headers="col2">
-                  <a>index.css</a>
-                  <br />
-                  <a>reset.css</a>
+                  <a>GitHub Page</a>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <button className="movebtn">
+        <button className="movebtn3">
           <MdKeyboardDoubleArrowLeft />
         </button>
       </div>
@@ -58,4 +46,4 @@ const MainPage1 = () => {
   );
 };
 
-export default MainPage1;
+export default MainPage3;

@@ -55,13 +55,6 @@
   font-size: 20px;
   font-weight: bolder;
 }
-.right_ul {
-  padding: 10px 0;
-}
-.right_ul li {
-  font-weight: bolder;
-  list-style: circle;
-}
 .rightbx button {
   width: 90px;
   padding: 5px 0;

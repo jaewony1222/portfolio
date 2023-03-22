@@ -1,9 +1,9 @@
 .head {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  box-shadow: 0 0 3px 3px #ccc;
+  box-shadow: 0 0 2px 2px #ccc;
   color: black;
   height: 55px;
   opacity: 0.8;
@@ -17,7 +17,7 @@
   font-size: 13px;
 }
 .menu li {
-  padding: 0 150px;
+  padding: 0 50px;
 }
 .menu li:hover {
   transform: translatex(10%);

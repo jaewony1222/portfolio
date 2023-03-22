@@ -1,24 +1,21 @@
 import React from "react";
-import "./MainPage1.css";
-import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
+import "./MainPage4.css";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
-const MainPage1 = () => {
+const MainPage4 = () => {
   return (
     <div className="inner">
-      <div className="title">
-        <h1>PROJECTS</h1>
-      </div>
-      <div className="box">
+      <div className="box2">
         <div className="leftbx">
-          <img src="./img/indigo.PNG" />
+          <img src="./img/game.PNG" />
         </div>
         <div className="rightbx">
           <div className="right_title">
             <h2>
-              <span className="number">01.</span>
-              INDIGO
+              <span className="number">04.</span>
+              야구게임
             </h2>
-            <p>반응형을 학습하여 제작한 페이지입니다.</p>
+            <p>자바스크립트를 학습하며 제작한 페이지입니다.</p>
           </div>
           <button>Go To</button>
           <table className="file_link">
@@ -42,20 +39,26 @@ const MainPage1 = () => {
                   <span className="category css">CSS</span>
                 </td>
                 <td headers="col2">
-                  <a>index.css</a>
-                  <br />
-                  <a>reset.css</a>
+                  <a>style.css</a>
+                </td>
+              </tr>
+              <tr>
+                <td headers="col1">
+                  <span className="category js">JS</span>
+                </td>
+                <td headers="col2">
+                  <a>game.js</a>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <button className="movebtn">
-          <MdKeyboardDoubleArrowLeft />
+        <button className="movebtn2">
+          <MdKeyboardDoubleArrowRight />
         </button>
       </div>
     </div>
   );
 };
 
-export default MainPage1;
+export default MainPage4;
