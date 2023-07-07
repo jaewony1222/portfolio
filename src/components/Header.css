@@ -1,0 +1,29 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 2px 2px #ccc;
+  color: black;
+  height: 55px;
+  opacity: 0.8;
+  width: 100%;
+  font-weight: bold;
+  position: fixed;
+  z-index: 2;
+}
+.menu {
+  display: flex;
+  font-size: 13px;
+}
+.menu1 {
+  font-size: 30px;
+  padding: 0 20px;
+}
+.menu li {
+  padding: 0 50px;
+}
+.menu li:hover {
+  transform: translatex(10%);
+  transition: all 1s;
+}
